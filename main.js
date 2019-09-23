@@ -31,7 +31,7 @@ function calculateWeight(weight, planetName) {
  var planetName =
  document.getElementById('planets').selectedIndex;
   
- var gravity = planets[planetName][2];
+ var gravity = planets[planetName][1];
 
    return weight * gravity;   
 }
